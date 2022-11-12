@@ -6,6 +6,7 @@ Write a function `nextInLine` which takes an array (`arr`) and a number (`item`)
 Add the number to the end of the array, then remove the first element of the array.
 The `nextInLine` function should then return the element that was removed.
 
+```javascript
 function nextInLine(arr, item) {
   // Only change code below this line
 
@@ -20,10 +21,15 @@ console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 
-### Answer
+```
+
+## Answer
+
+```javascript
   var pushItem = arr.push(item);
   var removedItem = arr.shift();
   return removedItem;
+```
 
 #### Step by step 
 1. For add number at the end of the array use `.push()`
