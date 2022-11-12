@@ -35,6 +35,8 @@ When test is called with a value of `true`, the if statement evaluates myConditi
 
 Create an if statement inside the function to return `Yes, that was true` if the parameter `wasThatTrue` is `true` and return `No, that was false` otherwise.
 
+## Answer
+
 ```javascript
 
 function trueOrFalse(wasThatTrue) {
