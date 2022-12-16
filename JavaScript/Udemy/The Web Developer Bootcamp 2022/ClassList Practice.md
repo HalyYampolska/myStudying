@@ -42,8 +42,7 @@ li {
 ```
 
 ## Answer
-
-First 
+ 
 ```javascript
 const lists = document.querySelectorAll('li');
 
