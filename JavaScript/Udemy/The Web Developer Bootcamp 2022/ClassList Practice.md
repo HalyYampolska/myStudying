@@ -43,6 +43,7 @@ li {
 
 ## Answer
  
+First 
 ```javascript
 const lists = document.querySelectorAll('li');
 
@@ -55,4 +56,12 @@ for (let li of lists ){
     }
 } 
 
+```
+Second 
+```javascript
+const lists = document.querySelectorAll('li');
+
+for (const li of lists) {
+    li.classList.toggle('highlight');
+}
 ```
