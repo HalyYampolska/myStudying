@@ -5,7 +5,7 @@ Time to get some practice working with forms and form events! `index.html` alrea
 1. Listen for the form submission
 2. When the form is submitted, prevent the default behavior
 3. Grab the quantity input value and the product input value.
-4. Create a new <li> element.  Set the text on the new <li> to include the quantity and product name from the form.
+4. Create a new <li> element. Set the text on the new <li> to include the quantity and product name from the form.
 5. Append the new <li> to the <ul> on the page
 6. Reset the inputs
 
